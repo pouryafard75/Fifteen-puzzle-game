@@ -37,7 +37,7 @@ First line indicates numbers of moves required to solve the puzzle and the secon
 This is intented to get a starting puzzle and perform series of moves in order to validate the result.
 
 <b>  <i>
- Input format
+ Input format:
 </i> </b>
 
 5 <br>
@@ -47,29 +47,27 @@ This is intented to get a starting puzzle and perform series of moves in order t
 16 18 19 20 24 <br>
 21 17 22 0 23 <br>
 9 <br>
-r u l l l d r r r
- 
+r u l l l d r r r <br>
 The input format is quite the same as the Main.java. It takes n as number of rows, then the starting position in the following lines. Then the number of required moves and at the we have the move sequence.
 
 <b>  <i>
-Output format
-</i> </b>
-
+Output format: true or false
+</i> </b> <br>
 The output will be a boolean determining the puzzle is solved correctly or not.
 
 # Scrambler.java
 This is intented to get a scramble a solved position to create a puzzle sitution. It will only create meaningfull sequence which means "right" and "left , "up" and "down" wont be performed consecutively.
 
 <b>  <i>
- Input format
+ Input format:
 </i> </b>
 
 6 <br>
-5
+5 <br>
 The first line indicates n, and the second line is the number of moves you want to perform on solved puzzle. 
 
 <b>  <i>
- Output format
+ Output format:
 </i> </b>
 
 6 <br>
