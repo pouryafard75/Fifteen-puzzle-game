@@ -18,7 +18,7 @@ This is the puzzle-solver.
 
 The first line indicates the number of rows (or columns since it will be an square).
 The next line will show the position of every single tiles.
-<b> Note that the empty tile will be shown by 0. <b>
+<b> Note that the empty tile will be shown by 0. </b>
  
 You can perform right, left, up, down to change the empty tile position. 
 For the example above, if operator left is called, it will change the position of 0(empty slot) and 12.
