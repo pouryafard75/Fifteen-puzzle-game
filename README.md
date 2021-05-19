@@ -10,6 +10,7 @@ This is the puzzle-solver.
 <b>  <i>
  Input format:
 </i> </b>
+
 4 <br>
 14 4 1 7 <br>
 10 6 8 2 <br>
@@ -34,6 +35,7 @@ First line indicates numbers of moves required to solve the puzzle and the secon
  
 # Validator.java
 This is intented to get a starting puzzle and perform series of moves in order to validate the result.
+
 <b>  <i>
  Input format
 </i> </b>
