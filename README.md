@@ -10,11 +10,11 @@ This is the puzzle-solver.
 <b>  <i>
  Input format:
 </i> </b>
-4
-14 4 1 7
-10 6 8 2
-5 12 0 13
-15 3 11 9
+4 <br>
+14 4 1 7 <br>
+10 6 8 2 <br>
+5 12 0 13 <br>
+15 3 11 9 <br>
 
 The first line indicates the number of rows (or columns since it will be an square).
 The next line will show the position of every single tiles.
@@ -26,7 +26,8 @@ For the example above, if operator left is called, it will change the position o
 <b>  <i>
 Output format:
 </i> </b>
-9
+
+9 <br>
 r u l l l d r r r
  
 First line indicates numbers of moves required to solve the puzzle and the second line will be the moves in the right order.
@@ -36,13 +37,14 @@ This is intented to get a starting puzzle and perform series of moves in order t
 <b>  <i>
  Input format
 </i> </b>
-5
-1 2 3 4 5 
-6 7 8 9 10 
-11 12 13 14 15 
-16 18 19 20 24 
-21 17 22 0 23
-9
+
+5 <br>
+1 2 3 4 5 <br>
+6 7 8 9 10  <br>
+11 12 13 14 15  <br>
+16 18 19 20 24 <br>
+21 17 22 0 23 <br>
+9 <br>
 r u l l l d r r r
  
 The input format is quite the same as the Main.java. It takes n as number of rows, then the starting position in the following lines. Then the number of required moves and at the we have the move sequence.
@@ -50,6 +52,7 @@ The input format is quite the same as the Main.java. It takes n as number of row
 <b>  <i>
 Output format
 </i> </b>
+
 The output will be a boolean determining the puzzle is solved correctly or not.
 
 # Scrambler.java
@@ -58,22 +61,24 @@ This is intented to get a scramble a solved position to create a puzzle sitution
 <b>  <i>
  Input format
 </i> </b>
-6
+
+6 <br>
 5
 The first line indicates n, and the second line is the number of moves you want to perform on solved puzzle. 
 
 <b>  <i>
  Output format
 </i> </b>
-6
-1 2 3 4 5 6 
-7 8 9 10 0 12 
-13 14 15 16 11 18 
-19 20 21 22 17 24 
-25 26 27 28 23 30 
-31 32 33 34 29 35 
-5
-d d d d r
+
+6 <br>
+1 2 3 4 5 6 <br>
+7 8 9 10 0 12 <br>
+13 14 15 16 11 18 <br>
+19 20 21 22 17 24 <br>
+25 26 27 28 23 30 <br>
+31 32 33 34 29 35 <br>
+5 <br>
+d d d d r <br>
 The output format is completely identical with Validator.java input format.
  
  
